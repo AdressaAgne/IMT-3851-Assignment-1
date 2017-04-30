@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+body{
+    background-color: #f8f8f8;
+    padding-top: 20vh;
+    padding-left: 20vw;
+}
+
+nav{
+    top: 0px;
+    left: 0px;
+    height: 20vh;
+    background-color: dodgerblue;
+    color: #f8f8f8;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+aside{
+    left: 0px;
+    float: left;
+    width: 20vw;
+    height: 80vh;
+    position: fixed;
+    top: 20vh;
+    overflow: scroll;
+    background-color: #f4f4f4;
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, .1);
+}
+.row{
+    float: left;
+    clear: left;
+    width: 100%;
+}
+
+main{
+    float: left;
+    padding: 20px;
+}
+
+small {
+    display: block;
+    font-size: 14px;
+    color: darkgray;
+}
+.account_item{
+    margin-bottom: 10px;
+}
+.customer{
+    padding: 10px
+}
+
+.col{
+    float: left;
+    width: 35vw;
+    padding: 20px;
+}
+.col ul{
+    padding: 20px;
+    list-style-type: none;
+}
+
+.transaction{
+    padding: 20px 0px;
+    border-bottom: 1px solid #cecece;
+}
